@@ -67,7 +67,8 @@
         
         <version.shrinkwrap.resolvers>2.1.1</version.shrinkwrap.resolvers>
         
-        <jackson.version>2.3.2</jackson.version>
+        <jackson.version>2.4.4</jackson.version>
+        <jackson.hibernate4.version>2.4.0</jackson.hibernate4.version>
 
         <version.jta>1.1</version.jta>
 
@@ -129,7 +130,7 @@
             <dependency>
                 <groupId>org.jboss.resteasy</groupId>
                 <artifactId>resteasy-bom</artifactId>
-                <version>3.0.9.Final</version>
+                <version>3.0.10.Final</version>
                 <scope>import</scope>
                 <type>pom</type>
             </dependency>
@@ -224,7 +225,7 @@
         <dependency>
             <groupId>com.fasterxml.jackson.datatype</groupId>
             <artifactId>jackson-datatype-hibernate4</artifactId>
-            <version>${jackson.version}</version>
+            <version>${jackson.hibernate4.version}</version>
         </dependency>
 
         <!-- Needed for running tests (you may also use TestNG) -->
