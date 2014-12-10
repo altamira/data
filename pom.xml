@@ -73,7 +73,7 @@
         <version.jta>1.1</version.jta>
 
         <!-- Altamira Data -->
-        <version.data>0.7.1-SNAPSHOT</version.data>
+        <version.data>0.7.2-SNAPSHOT</version.data>
 
     </properties>
             
