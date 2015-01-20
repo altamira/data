@@ -1,0 +1,10 @@
+cd ..\data-model
+git pull
+cd ..\data-dao
+git pull
+cd ..\data-rest
+git pull
+cd ..\data-db
+git pull
+cd ..\data
+git pull
