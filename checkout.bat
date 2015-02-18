@@ -1,7 +1,3 @@
-cd ..\manufacturing-report
-git checkout %1
-cd ..\web-manufacturing
-git checkout %1
 cd ..\data-model
 git checkout %1
 cd ..\data-dao
