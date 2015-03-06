@@ -6,5 +6,7 @@ cd ..\data-rest
 git push
 cd ..\data-db
 git push
+cd ..\data-integration
+git push
 cd ..\data
 git push

@@ -6,5 +6,7 @@ cd ..\data-rest
 git pull
 cd ..\data-db
 git pull
+cd ..\data-integration
+git pull
 cd ..\data
 git pull

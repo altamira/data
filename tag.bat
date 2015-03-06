@@ -10,6 +10,9 @@ git push origin %1
 cd ..\data-db
 git tag %1
 git push origin %1
+cd ..\data-integration
+git tag %1
+git push origin %1
 cd ..\data
 git tag %1
 git push origin %1

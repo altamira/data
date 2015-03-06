@@ -6,5 +6,7 @@ cd ..\data-rest
 git status
 cd ..\data-db
 git status
+cd ..\data-integration
+git status
 cd ..\data
 git status

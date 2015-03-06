@@ -14,6 +14,10 @@ cd ..\data-db
 git add -A
 git commit -m %1
 git push
+cd ..\data-integration
+git add -A
+git commit -m %1
+git push
 cd ..\data
 git add -A
 git commit -m %1

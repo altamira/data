@@ -6,5 +6,7 @@ cd ..\data-rest
 git merge %1
 cd ..\data-db
 git merge %1
+cd ..\data-integration
+git merge %1
 cd ..\data
 git merge %1 
